@@ -8,26 +8,17 @@ body{
     align-items:center;
     text-align:center;
 }
-.container{
-    display:grid;
-    place-items:center;
-}
-.bkg{
-    width:100%;
-    height:100%;
-    object-fit:cover;
-    z-index: -1;;
-}
-.left{
-    position:absolute;
-    left:300px;
-    top:200px;
-}
-.right{
-    position:absolute;
-    right:300px;
-    top:200px;
-}
 .split{
     color:orangered;
+    font-size:25px;
+    width:50%;
+    height:100%;
+}
+.split.left{
+    position:absolute;
+    left:0;
+}
+.split.right{
+    position:absolute;
+    right:0;
 }
