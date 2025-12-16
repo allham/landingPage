@@ -33,16 +33,14 @@ h1{
     top:0;
 }
 .split.left{
-    background-image:url("https://images.pexels.com/videos/35222652/pexels-photo-35222652.jpeg?w=200&h=200&fit=crop&dpr=2");
+    background-image:url("https://images.pexels.com/photos/29020349/pexels-photo-29020349.jpeg");
     background-size:cover;
     position:absolute;
     left:0;
-    background-color:rebeccapurple;
 }
 .split.right{
     position:absolute;
     right:0;
-    background-color:orangered;
-    background:url("https://images.pexels.com/videos/35222651/pexels-photo-35222651.jpeg?w=200&h=200&fit=crop&dpr=2");
+    background-image:url("https://images.pexels.com/photos/16149966/pexels-photo-16149966.jpeg");
     background-size:cover;
 }
