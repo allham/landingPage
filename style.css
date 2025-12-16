@@ -21,12 +21,14 @@ h1{
     border-radius:50px;
     box-shadow:3px 4px 5px rgba(0,0,0,0.6);
     transition:1s background-color;
+    white-space:nowrap;
 }
 .btn:hover{
     background-color:gray;
     color:black;
 }
 .split{
+    overflow:hidden;
     color:orangered;
     width:50%;
     height:100%;
@@ -43,4 +45,16 @@ h1{
     right:0;
     background-image:url("https://images.pexels.com/photos/16149966/pexels-photo-16149966.jpeg");
     background-size:cover;
+}
+.active-left .left{
+    width:75%;
+}
+.active-left .right{
+    width:25%;
+}
+.active-right .right{
+    width:75%;
+}
+active-right .right{
+    width:25%;
 }
